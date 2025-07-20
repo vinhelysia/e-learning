@@ -12,7 +12,8 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   basePath: '/e-learning',
-  assetPrefix: '/e-learning',
+  assetPrefix: '/e-learning/',
+  distDir: 'out',
 }
 
 export default nextConfig
